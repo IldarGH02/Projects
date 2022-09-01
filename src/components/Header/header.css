@@ -1,0 +1,24 @@
+.header__title {
+  background-image: linear-gradient(90deg, #5361e3, #c918da);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 30px;
+}
+
+.header__link:not(:last-child) {
+  margin-right: 50px;
+}
+
+.header__link {
+  outline: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.header__link:focus {
+  color: #fb923c;
+}
+
+.header__link:hover {
+  color: #fb923c;
+}
+

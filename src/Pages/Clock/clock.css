@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.clock__container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.clock__timer {
+  font-size: 70px;
+  background-image: linear-gradient(90deg, #dd0fb0, #750acc);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
